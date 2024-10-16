@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="output_data" id="output_data">
+	<SimpleField name="id" type="string"></SimpleField>
+	<SimpleField name="place" type="string"></SimpleField>
+	<SimpleField name="latitude" type="float"></SimpleField>
+	<SimpleField name="longitude" type="float"></SimpleField>
+	<SimpleField name="magnitude" type="float"></SimpleField>
+</Schema>
+<Folder><name>output_data</name>
+  <Placemark>
+	<name>1</name>
+	<description>San Francisco</description>
+	<ExtendedData><SchemaData schemaUrl="#output_data">
+		<SimpleData name="id">37</SimpleData>
+		<SimpleData name="place">-122.4194</SimpleData>
+		<SimpleData name="latitude">5.2</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-0.001099712180927,0.000339337700258</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2</name>
+	<description>Los Angeles</description>
+	<ExtendedData><SchemaData schemaUrl="#output_data">
+		<SimpleData name="id">34</SimpleData>
+		<SimpleData name="place">-118.2437</SimpleData>
+		<SimpleData name="latitude">4.6</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-0.001062201229608,0.000305896117182</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3</name>
+	<description>Tokyo</description>
+	<ExtendedData><SchemaData schemaUrl="#output_data">
+		<SimpleData name="id">35</SimpleData>
+		<SimpleData name="place">139.6503</SimpleData>
+		<SimpleData name="latitude">6</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>0.001254499989219,0.00032048475739</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>4</name>
+	<description>Jakarta</description>
+	<ExtendedData><SchemaData schemaUrl="#output_data">
+		<SimpleData name="id">-6</SimpleData>
+		<SimpleData name="place">106.8456</SimpleData>
+		<SimpleData name="latitude">5.8</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>0.000959810355209,-0.000055774599362</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>5</name>
+	<description>Sydney</description>
+	<ExtendedData><SchemaData schemaUrl="#output_data">
+		<SimpleData name="id">-33</SimpleData>
+		<SimpleData name="place">151.2093</SimpleData>
+		<SimpleData name="latitude">4.2</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>0.00135833625291,-0.000304248606956</coordinates></Point>
+  </Placemark>
+</Folder>
+</Document></kml>

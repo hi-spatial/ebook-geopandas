@@ -1,0 +1,8 @@
+# ds store
+.DS_STORE
+
+# jupyter notebook
+.ipynb_checkpoints
+
+# output image
+output
